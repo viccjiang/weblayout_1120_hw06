@@ -1,0 +1,129 @@
+.brand{
+    background-color:$primary;
+    margin-bottom: 80px;
+
+    .brandName li a{
+      padding: 14px 28px 14px 0;
+      
+    
+    }
+  }
+
+  .productList{
+    margin-bottom: 60px;
+    .product-img1{
+      height: 255px; 
+      width: 100%;
+      background-image: url(../images/products1.jpg); 
+      background-size: cover;
+      background-position: center center;
+    }
+    .product-img2{
+      height: 255px; 
+      width: 100%;
+      background-image: url(../images/products3.jpg); 
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .product-img3{
+      height: 255px; 
+      width: 100%;
+      background-image: url(../images/products4.jpg); 
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .product-img4{
+      height: 255px; 
+      width: 100%;
+      background-image: url(../images/product1.jpg); 
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .product-img5{
+      height: 255px; 
+      width: 100%;
+      background-image: url(../images/product2.jpg); 
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .product-img6{
+      height: 255px; 
+      width: 100%;
+      background-image: url(../images/product3.jpg); 
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .product-img7{
+      height: 255px; 
+      width: 100%;
+      background-image: url(../images/products5.jpg); 
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .product-img8{
+      height: 255px; 
+      width: 100%;
+      background-image: url(../images/products7.jpg); 
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .product-img9{
+      height: 255px; 
+      width: 100%;
+      background-image: url(../images/products8.jpg); 
+      background-size: cover;
+      background-position: center center;
+    }
+    .product-img10{
+      height: 255px; 
+      width: 100%;
+      background-image: url(../images/products10.jpg); 
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .product-img11{
+      height: 255px; 
+      width: 100%;
+      background-image: url(../images/products11.jpg); 
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .product-img12{
+      height: 255px; 
+      width: 100%;
+      background-image: url(../images/products12.jpg); 
+      background-size: cover;
+      background-position: center center;
+    }
+
+
+    .product-name{
+      font-size: 24px;
+      line-height: 36px;
+    }
+
+    .product-brand,.product-price{
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+   
+  }
+
+
+  .pagination{
+    margin-bottom: 60px;
+  }
+
+
+
+ 

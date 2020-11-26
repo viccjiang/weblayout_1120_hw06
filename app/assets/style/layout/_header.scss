@@ -1,0 +1,32 @@
+.header {
+    
+    h1 a {
+        background-image: url(../images/d’Perfume.png);
+        width: 128px;
+        height: 38px;
+        // border: 1px solid #000;
+        display: block;
+        text-indent: 150%;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    
+    li a{
+        display: block;
+        font-size: 20px;
+        line-height: 24px;
+        color: $gray-600 ;
+        // border: 1px solid #000;
+        & span{
+            vertical-align: middle;
+        }
+    }
+
+    .nav-item span{
+        margin-right: 3px;
+    }
+    
+}
+
+
+  
