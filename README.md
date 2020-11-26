@@ -1,7 +1,22 @@
+
+# Gulp gh-pages 部署步驟 
+本週一直遇到上傳的困難，所以先把自己的步驟記錄起來
+1. win:開啟 cmd > 輸入cd > 拉進資料夾 > 按下enter > 輸入 npm install > 輸入gulp ，若順利開啟瀏覽器之後，跳到第4步驟
+1. mac: 開啟 terminal > 輸入cd > 拉進資料夾 > 按下enter > 輸入 sudo npm install （sudo npm install -g gulp）> 輸入gulp ，若順利開啟瀏覽器之後，跳到第3或4步驟
+1. mac在vscode內建終端機輸入 sudo npm install -g gulp
+1. 在GihubPage網站先新增一個repositary，接著執行以下指令
+1. git init
+1. git add .
+1. git commit -m 'first commit'
+1. git remote add origin [GitHub Repositories 這個專案頁面上提供的的repo網址] //加入遠端的分支
+1. git branch -M main //修改目前分支的名稱
+1. git push -u origin master // 僅限第一次輸入，往後只需要輸入 git push
+1. gulp build - 執行編譯模式(不會開啟瀏覽器)
+1. gulp deploy - 將 dist 資料夾部署至 GitHub Pages
+
 # 網頁切版直播班 Gulp 範例
 
 > 使用該專案 Gulp 時，就可以不用使用其他編譯工具編譯 SCSS 或是 JavaScript 囉。
-
 ## 指令列表
 
 - `gulp` - 執行開發模式(會開啟模擬瀏覽器並監聽相關檔案)
